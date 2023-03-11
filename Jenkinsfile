@@ -4,7 +4,7 @@ pipeline{
   stages{
     stage('Build'){
       steps{
-      sh 'aws --version'
+      sh 'building application'
       }
     }
   }
